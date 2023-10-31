@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: hello-java-do288-apps
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/rh-ee-maniskum-tenant/do288-apps-hello-java/hello-java-do288-apps@sha256:e5b30e5c68c29df0e066b15b5f8ae751955c193635ac78208ee3acbaf6c0c0e9
         imagePullPolicy: Always
         name: container-image
         ports:
