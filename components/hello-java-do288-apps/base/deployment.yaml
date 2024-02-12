@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: do288-apps-hello-java
   name: hello-java-do288-apps
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
